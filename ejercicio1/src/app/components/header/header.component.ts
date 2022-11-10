@@ -13,7 +13,7 @@ export class HeaderComponent implements OnInit {
   personalInterest1:string = 'Mis alertas';
   personalInterest2:string = 'Favoritos';
   textButton1:string = "Publica";
-  textButton2:string = "Accede";
+  textButton2:string = "      Accede";
     
   
   constructor() { }

@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BuscadorComponent implements OnInit {
 
+  opcionBusqueda1:string = "Comprar";
+  opcionBusqueda2:string = "Alquilar";
+  opcionBusqueda3:string = "Obra nueva";
+  opcionBusqueda4:string = "Alquilar";
+
   constructor() { }
 
   ngOnInit(): void {
