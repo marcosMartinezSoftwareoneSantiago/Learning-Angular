@@ -1,15 +1,55 @@
 input{
     width: auto;
 	height: 25px;
+	background-color: rgb(67, 125, 250);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+	margin: 5px;
+}
+
+.buttons{
+	position: fixed;
+	right: 30px;
+}
+
+.headline{
+	color: rgb(18, 53, 170);
+	font-weight: bold;
+	font-size: 24px;
+	margin-left: 10px;
 }
 
 .input-wrapper {
 	position: relative;
 	display: inline;
 }
+
 .input-icon {
+    color:rgb(255, 255, 255);
 	position: absolute;
 	left: 12px;
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+.publica{
+	background-color: rgb(255, 255, 255);
+    color:rgb(67, 125, 250);
+    border: solid 1px rgb(67, 125, 250);
+}
+
+.rest{
+	color: rgb(128, 128, 128);
+	font-size: 14px;
+	margin-left: 10px;
+
+}
+
+.rightRest{
+	position: fixed;
+	right: 220px;
+	top: 15px;
+}
+

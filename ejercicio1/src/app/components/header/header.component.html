@@ -1,19 +1,25 @@
 <header>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <i class="fa-solid fa-bars"></i>
-    {{ headline }}
-    {{option1}}
-    |
-    {{option2}}
-
-    <i class="fa-regular fa-bell"></i>
-    {{personalInterest1}}
-    <i class="fa-regular fa-heart"></i>
-    {{personalInterest2}}
-
-    <input type="button" value={{textButton1}}>
-    <div class="input-wrapper">
-        <i class="fa-solid fa-user input-icon"></i>
-        <input type="button" value={{textButton2}}>
-    </div>
+    <span class="headline">
+        {{ headline }}
+    </span>
+    <span class="rest">
+        {{option1}}
+        |
+        {{option2}}
+    </span>
+    <span class="rest rightRest">
+        <i class="fa-regular fa-bell"></i>
+        {{personalInterest1}}
+        <i class="fa-regular fa-heart"></i>
+        {{personalInterest2}}
+    </span>
+    <span class="buttons">
+        <input type="button" class="publica" value={{textButton1}}>
+        <div class="input-wrapper">
+            <i class="fa-solid fa-user input-icon"></i>
+            <input type="button" value={{textButton2}}>
+        </div>
+    </span>
 </header>

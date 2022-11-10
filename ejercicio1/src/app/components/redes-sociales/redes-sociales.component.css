@@ -1,0 +1,18 @@
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 53, 170);
+    height: 150px;
+    width: 100%;
+}
+
+i{
+    margin-left: 5px;
+}
+
+span{
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
