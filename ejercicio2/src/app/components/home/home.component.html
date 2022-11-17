@@ -1,6 +1,6 @@
-<br><br><br><br>
-<p>home works!</p>
-<form>
-    <input type="email" name="sendEmail" id="">
+<br><br><br><br><br><br>
+<form (submit)="takeEmail()">
+    <label for="sendEmail">Email:</label>
+    <input type="email" name="sendEmail" [(ngModel)]="email">
     <button type="submit">Enviar</button>
 </form>
