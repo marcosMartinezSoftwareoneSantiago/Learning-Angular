@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+header, footer{
+    color:rgb(155, 207, 50);
+    background-color: rgb(0, 128, 128);
+    height: 40px;
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    text-align: right;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+}
