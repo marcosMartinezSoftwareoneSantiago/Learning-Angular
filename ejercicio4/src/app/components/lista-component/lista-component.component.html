@@ -1,0 +1,27 @@
+<br><br><br><br><br>
+<div class="text-center">
+    <input (click)="showOrHideTable()" type="button" class="btn btn-success" [(ngModel)]="textButton" >
+
+    <br><br>
+    <table *ngIf="visibleTable" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Antiguedad</th>
+                <th>Salario</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{luis.nombreCompleto}}</td>
+                <td>{{luis.antiguedad}}</td>
+                <td>{{luis.sueldo}}</td>
+            </tr>
+            <tr>
+                <td>{{maria.nombreCompleto}}</td>
+                <td>{{maria.antiguedad}}</td>
+                <td>{{maria.sueldo}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
