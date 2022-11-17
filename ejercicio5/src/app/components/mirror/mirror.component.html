@@ -1,1 +1,8 @@
+<br><br><br><br><br>
 <p>mirror works!</p>
+
+<input (keyup)="captureKey()" type="text" [(ngModel)]="text" >
+<br><br>
+<div *ngIf="showDiv">
+    <p>{{text}}</p>
+</div>

@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MirrorComponent implements OnInit {
 
+  text:string = "";
+
+  showDiv:boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  captureKey(){
+    this.showDiv = !(this.text === "")
   }
 
 }

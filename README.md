@@ -48,3 +48,17 @@ Usa bootstrap, eventos e interpolación de variables.
 ## 5.- Crea una aplicación con angular con un componente (ponle el nombre que quieras).
 
   Trata de replicar lo que ves en la captura de vídeo. El ejercicio hace uso del data binding
+
+## 6.- Crea una aplicación con angular que realice una petición http GET a la siguiente *[url](https://jsonplaceholder.typicode.com/users)*
+
+    Renderiza la información recibida del servidor en un html a través de una ista desordenada
+
+## 7.- Crea una aplicación con angular que tenga una formulario con tres inputs.
+
+    Genera un evento submit asociado al formulario que imprima por consola los valores de los input
+
+## 8.- Crea una aplicación con angular con las siguientes rutas:
+
+    /lista   ( renderiza un array que venga de typescript en una tabla )
+
+    /form (tiene un formulario  con un input para el email que al ser enviado imprime por consola "Has enviado el formulario...")

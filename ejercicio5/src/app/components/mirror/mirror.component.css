@@ -1,0 +1,15 @@
+div{
+    border: 3px solid orange;
+    border-radius: 5px;
+    height: 230px;
+    width: 400px;
+}
+
+input{
+    width: 400px;
+    border-radius: 5px;
+}
+
+p{
+    margin: 10px;
+}
